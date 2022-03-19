@@ -7,44 +7,115 @@
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
               crossorigin="anonymous"
-              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"/>
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" />
     </environment>
     <link rel="stylesheet" href="~/css/site.css" />
+    <link href="~/css/StyleTM.css" rel="stylesheet" />
+    <link href="~/css/inicss.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400;500;600&display=swap" rel="stylesheet">
+
+
+
+    <link href="~/css/flickity.css" rel="stylesheet" />
+    <script src="~/js/flickity.pkgd.js"></script>
+
+
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">HMUI</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+        <div class="c-head">
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-transparent border-bottom box-shadow mb-3">
+                <div class="container">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Hospital Meet</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                        <ul class="navbar-nav navbar-right" style="text-align:center;">
+                            <li class="nav-item">
+
+                                <div class="btn-nav" asp-area="" asp-controller="Home" asp-action="Index"><a>เข้าสู่ระบบ</a></div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="btn-nav" asp-area="" asp-controller="Home" asp-action="Index"><a>สมัครสมาชิก</a></div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
             </div>
-        </nav>
     </header>
     <div class="container">
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+
+
+
+
+        <hr />
+        <div class="footer-1">
+            <div class="footer-tb">
+                <div class="footer-item-1">
+                    <div class="footer-titel"><h2>About</h2></div>
+
+                    <div class="footer-list">
+                        <h4>About HM</h4>
+                        <h4>Content Guidelines</h4>
+                        <h4>Terms of Service</h4>
+                        <h4>Privacy Policy</h4>
+
+                    </div>
+
+                </div>
+                <div class="footer-item-1">
+                    <div class="footer-titel"><h2>Discover</h2></div>
+
+
+                    <div class="footer-list">
+                        <h4>TM Blog</h4>
+
+
+                    </div>
+                </div>
+                <div class="footer-item-1">
+                    <div class="footer-titel"><h2>TM for Bussiness</h2></div>
+
+
+                    <div class="footer-list">
+                        <h4>Business Support</h4>
+
+
+                    </div>
+                </div>
+                <div class="footer-item-1">
+                    <div class="footer-titel"><h2>Languages</h2></div>
+
+
+                    <div class="footer-list">
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
     </div>
+
+
 
     <footer class="border-top footer text-muted">
         <div class="container">

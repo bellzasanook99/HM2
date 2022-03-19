@@ -4438,6 +4438,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Core.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Core.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.Models.dll": {}
+        }
       }
     }
   },
@@ -12133,10 +12143,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Core.Models/1.0.0": {
+      "type": "project",
+      "path": "../Core.Models/Core.Models.csproj",
+      "msbuildProject": "../Core.Models/Core.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Core.Models >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0"
@@ -12178,7 +12194,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "targetAlias": "netcoreapp2.2",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Models\\Core.Models.csproj": {
+              "projectPath": "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Models\\Core.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

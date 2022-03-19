@@ -1,4 +1,5 @@
-﻿using HMUI.Models;
+﻿using Core.Models;
+using HMUI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,11 @@ namespace HMUI.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            MdlRegisters mdlRegisters = new MdlRegisters();
+            mdlRegisters.test = "tttt";
+
+
+            return View(mdlRegisters);
         }
 
         public IActionResult Privacy()
