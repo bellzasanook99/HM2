@@ -19,6 +19,14 @@ namespace HMUI.Controllers
 
             return View(mdlRegisters);
         }
+        public IActionResult SignUp()
+        {
+           
+
+
+            return View();
+        }
+
 
         public IActionResult Privacy()
         {
