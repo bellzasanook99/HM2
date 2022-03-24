@@ -1,0 +1,10 @@
+C:\Users\s5801073810058\source\repos\HMCore\Core.Interfaces\bin\Debug\netcoreapp2.2\Core.Interfaces.deps.json
+C:\Users\s5801073810058\source\repos\HMCore\Core.Interfaces\bin\Debug\netcoreapp2.2\Core.Interfaces.dll
+C:\Users\s5801073810058\source\repos\HMCore\Core.Interfaces\bin\Debug\netcoreapp2.2\Core.Interfaces.pdb
+C:\Users\s5801073810058\source\repos\HMCore\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.csproj.AssemblyReference.cache
+C:\Users\s5801073810058\source\repos\HMCore\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s5801073810058\source\repos\HMCore\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.AssemblyInfoInputs.cache
+C:\Users\s5801073810058\source\repos\HMCore\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.AssemblyInfo.cs
+C:\Users\s5801073810058\source\repos\HMCore\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\s5801073810058\source\repos\HMCore\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.dll
+C:\Users\s5801073810058\source\repos\HMCore\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.pdb

@@ -1,0 +1,10 @@
+C:\Users\s5801073810058\source\repos\HMCore\Core.Services\bin\Debug\netcoreapp2.2\Core.Services.deps.json
+C:\Users\s5801073810058\source\repos\HMCore\Core.Services\bin\Debug\netcoreapp2.2\Core.Services.dll
+C:\Users\s5801073810058\source\repos\HMCore\Core.Services\bin\Debug\netcoreapp2.2\Core.Services.pdb
+C:\Users\s5801073810058\source\repos\HMCore\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.csproj.AssemblyReference.cache
+C:\Users\s5801073810058\source\repos\HMCore\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s5801073810058\source\repos\HMCore\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.AssemblyInfoInputs.cache
+C:\Users\s5801073810058\source\repos\HMCore\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.AssemblyInfo.cs
+C:\Users\s5801073810058\source\repos\HMCore\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.csproj.CoreCompileInputs.cache
+C:\Users\s5801073810058\source\repos\HMCore\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.dll
+C:\Users\s5801073810058\source\repos\HMCore\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.pdb

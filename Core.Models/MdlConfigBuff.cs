@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Core.Models
 {
-    class MdlConfigBuff
+    public class MdlConfigBuff
     {
+     
     }
 }
