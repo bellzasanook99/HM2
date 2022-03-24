@@ -32,7 +32,11 @@ namespace HMUI
             });
 
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+        //    services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+
+            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,6 +63,10 @@ namespace HMUI
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+
+       
+           // app.UseMvc();
         }
     }
 }

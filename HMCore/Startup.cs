@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Core.Common.Attributes;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
@@ -26,6 +27,16 @@ namespace HMCore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddSwaggerGen();
+
+            //  services.AddMvc(op => op.EnableEndpointRouting = false);
+
+            services.AddMvc(options =>
+            {
+                // add an instance of the filter, like we used to do it
+                options.Filters.Add(new BearerAuthorizeFilter());
+
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,6 +51,16 @@ namespace HMCore
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c => {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+
+            });
+
+
+
+            app.UseAuthentication();
 
             app.UseHttpsRedirection();
             app.UseMvc();
