@@ -5,9 +5,7 @@ using System.Text;
 
 namespace Core.Models
 {
-    class MdlAuth
-    {
-    }
+ 
     public class MdlLogin
     {
         [Required(ErrorMessage = "PhoneNumber is required")]
@@ -19,5 +17,6 @@ namespace Core.Models
 
 
         public string Email { get; set; }
+        public int Mode { get; set; }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.csproj.AssemblyReference.cache
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.AssemblyInfoInputs.cache
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.AssemblyInfo.cs
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.csproj.CoreCompileInputs.cache
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\bin\Debug\netcoreapp2.2\Core.Common.deps.json
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\bin\Debug\netcoreapp2.2\Core.Common.dll
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\bin\Debug\netcoreapp2.2\Core.Common.pdb
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\bin\Debug\netcoreapp2.2\Core.Domain.dll
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\bin\Debug\netcoreapp2.2\Core.Models.dll
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\bin\Debug\netcoreapp2.2\Core.Domain.pdb
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\bin\Debug\netcoreapp2.2\Core.Models.pdb
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.csproj.CopyComplete
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.dll
+C:\Users\s5801073810058\source\repos\HMCore\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.pdb

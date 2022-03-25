@@ -1173,9 +1173,6 @@
       "Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "Microsoft.AspNet.WebApi.Core": "5.2.7"
-        },
         "compile": {
           "bin/placeholder/Core.Domain.dll": {}
         },
@@ -1186,9 +1183,6 @@
       "Core.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "Microsoft.AspNet.WebApi.Core": "5.2.7"
-        },
         "compile": {
           "bin/placeholder/Core.Models.dll": {}
         },

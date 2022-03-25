@@ -11,4 +11,9 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="BIZ\" />
+    <Folder Include="DAL\" />
+  </ItemGroup>
+
 </Project>

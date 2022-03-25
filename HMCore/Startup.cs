@@ -31,26 +31,33 @@ namespace HMCore
 
             //  services.AddMvc(op => op.EnableEndpointRouting = false);
 
-            services.AddMvc(options =>
-            {
-                // add an instance of the filter, like we used to do it
-                options.Filters.Add(new BearerAuthorizeFilter());
 
-            });
+            services.AddMvc(op => op.EnableEndpointRouting = false);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
+
+            app.UseHttpsRedirection();
+
+            app.UseRouting();
+
+            app.UseAuthorization();
+
+            app.UseEndpoints(endpoints =>
             {
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
+                endpoints.MapControllers();
+            });
+
+
+
+
 
             app.UseSwagger();
             app.UseSwaggerUI(c => {
@@ -59,11 +66,10 @@ namespace HMCore
             });
 
 
-
             app.UseAuthentication();
-
-            app.UseHttpsRedirection();
             app.UseMvc();
+
+
         }
     }
 }

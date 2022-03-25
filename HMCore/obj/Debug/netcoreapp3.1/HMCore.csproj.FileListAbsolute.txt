@@ -1,0 +1,6 @@
+C:\Users\s5801073810058\source\repos\HMCore\HMCore\obj\Debug\netcoreapp3.1\HMCore.csproj.AssemblyReference.cache
+C:\Users\s5801073810058\source\repos\HMCore\HMCore\obj\Debug\netcoreapp3.1\HMCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s5801073810058\source\repos\HMCore\HMCore\obj\Debug\netcoreapp3.1\HMCore.AssemblyInfoInputs.cache
+C:\Users\s5801073810058\source\repos\HMCore\HMCore\obj\Debug\netcoreapp3.1\HMCore.AssemblyInfo.cs
+C:\Users\s5801073810058\source\repos\HMCore\HMCore\obj\Debug\netcoreapp3.1\HMCore.csproj.CoreCompileInputs.cache
+C:\Users\s5801073810058\source\repos\HMCore\HMCore\obj\Debug\netcoreapp3.1\HMCore.MvcApplicationPartsAssemblyInfo.cache
