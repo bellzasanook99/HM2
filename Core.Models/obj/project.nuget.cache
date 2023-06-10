@@ -1,16 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SVcFMCMAOsxkisJwasUmr6Yi4yoF4OECyAbE5g2dg3xd9YOfhn04RvRUJR2n1Gpn+YtilfAD6Et5wCSxgJH9Fw==",
+  "dgSpecHash": "Pr4Ti6dmXvA/Zje6QN3uJVt7YTMt5/U4ceNELxyyWuDofngYflt43fZpmDuxS2EWjY0wtQFa5YmDJaab5L9cwA==",
   "success": true,
   "projectFilePath": "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Models\\Core.Models.csproj",
-  "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnethostpolicy\\2.2.0\\microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
-    "C:\\Users\\s5801073810058\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

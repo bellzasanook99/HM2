@@ -1,0 +1,11 @@
+D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\bin\Debug\net5.0\Core.Interfaces.deps.json
+D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\bin\Debug\net5.0\Core.Interfaces.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\bin\Debug\net5.0\ref\Core.Interfaces.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\bin\Debug\net5.0\Core.Interfaces.pdb
+D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\net5.0\Core.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\net5.0\Core.Interfaces.AssemblyInfoInputs.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\net5.0\Core.Interfaces.AssemblyInfo.cs
+D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\net5.0\Core.Interfaces.csproj.CoreCompileInputs.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\net5.0\Core.Interfaces.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\net5.0\ref\Core.Interfaces.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\net5.0\Core.Interfaces.pdb

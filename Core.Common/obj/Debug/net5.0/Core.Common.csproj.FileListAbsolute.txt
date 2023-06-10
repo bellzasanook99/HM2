@@ -1,0 +1,17 @@
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\bin\Debug\net5.0\Core.Common.deps.json
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\bin\Debug\net5.0\Core.Common.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\bin\Debug\net5.0\ref\Core.Common.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\bin\Debug\net5.0\Core.Common.pdb
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\bin\Debug\net5.0\Core.Domain.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\bin\Debug\net5.0\Core.Models.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\bin\Debug\net5.0\Core.Domain.pdb
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\bin\Debug\net5.0\Core.Models.pdb
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\obj\Debug\net5.0\Core.Common.csproj.AssemblyReference.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\obj\Debug\net5.0\Core.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\obj\Debug\net5.0\Core.Common.AssemblyInfoInputs.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\obj\Debug\net5.0\Core.Common.AssemblyInfo.cs
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\obj\Debug\net5.0\Core.Common.csproj.CoreCompileInputs.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\obj\Debug\net5.0\Core.Common.csproj.CopyComplete
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\obj\Debug\net5.0\Core.Common.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\obj\Debug\net5.0\ref\Core.Common.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Common\obj\Debug\net5.0\Core.Common.pdb

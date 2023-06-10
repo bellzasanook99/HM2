@@ -1,0 +1,12 @@
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\net5.0\Core.Services.deps.json
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\net5.0\Core.Services.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\net5.0\ref\Core.Services.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\net5.0\Core.Services.pdb
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\Core.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\Core.Services.AssemblyInfoInputs.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\Core.Services.AssemblyInfo.cs
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\Core.Services.csproj.CoreCompileInputs.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\Core.Services.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\ref\Core.Services.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\Core.Services.pdb
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\Core.Services.csproj.AssemblyReference.cache

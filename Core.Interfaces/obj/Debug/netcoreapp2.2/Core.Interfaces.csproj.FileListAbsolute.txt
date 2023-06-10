@@ -11,10 +11,10 @@ C:\Users\s5801073810058\source\repos\HMCore\Core.Interfaces\obj\Debug\netcoreapp
 D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\bin\Debug\netcoreapp2.2\Core.Interfaces.deps.json
 D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\bin\Debug\netcoreapp2.2\Core.Interfaces.dll
 D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\bin\Debug\netcoreapp2.2\Core.Interfaces.pdb
-D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.csproj.AssemblyReference.cache
 D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
 D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.AssemblyInfoInputs.cache
 D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.AssemblyInfo.cs
 D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.csproj.CoreCompileInputs.cache
 D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.dll
 D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.pdb
+D:\Develop\CodeGit\HM2#2\HM2\Core.Interfaces\obj\Debug\netcoreapp2.2\Core.Interfaces.csproj.AssemblyReference.cache
