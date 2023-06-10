@@ -8,3 +8,13 @@ C:\Users\s5801073810058\source\repos\HMCore\Core.Services\obj\Debug\netcoreapp2.
 C:\Users\s5801073810058\source\repos\HMCore\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.dll
 C:\Users\s5801073810058\source\repos\HMCore\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.pdb
 C:\Users\s5801073810058\source\repos\HMCore\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.csproj.AssemblyReference.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\netcoreapp2.2\Core.Services.deps.json
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\netcoreapp2.2\Core.Services.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\netcoreapp2.2\Core.Services.pdb
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.csproj.AssemblyReference.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.AssemblyInfoInputs.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.AssemblyInfo.cs
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.csproj.CoreCompileInputs.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\netcoreapp2.2\Core.Services.pdb

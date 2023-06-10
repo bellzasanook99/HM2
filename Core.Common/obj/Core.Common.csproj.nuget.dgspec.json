@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Common\\Core.Common.csproj": {}
+    "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Common\\Core.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Common\\Core.Common.csproj": {
+    "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Common\\Core.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Common\\Core.Common.csproj",
+        "projectUniqueName": "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Common\\Core.Common.csproj",
         "projectName": "Core.Common",
-        "projectPath": "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Common\\Core.Common.csproj",
+        "projectPath": "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Common\\Core.Common.csproj",
         "packagesPath": "C:\\Users\\s5801073810058\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Common\\obj\\",
+        "outputPath": "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,11 +35,11 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Domain\\Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Domain\\Core.Domain.csproj"
+              "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Domain\\Core.Domain.csproj": {
+                "projectPath": "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Domain\\Core.Domain.csproj"
               },
-              "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Models\\Core.Models.csproj": {
-                "projectPath": "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Models\\Core.Models.csproj"
+              "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Models\\Core.Models.csproj": {
+                "projectPath": "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Models\\Core.Models.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Domain\\Core.Domain.csproj": {
+    "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Domain\\Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Domain\\Core.Domain.csproj",
+        "projectUniqueName": "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Domain\\Core.Domain.csproj",
         "projectName": "Core.Domain",
-        "projectPath": "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Domain\\Core.Domain.csproj",
+        "projectPath": "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Domain\\Core.Domain.csproj",
         "packagesPath": "C:\\Users\\s5801073810058\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Domain\\obj\\",
+        "outputPath": "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -163,14 +163,14 @@
         }
       }
     },
-    "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Models\\Core.Models.csproj": {
+    "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Models\\Core.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Models\\Core.Models.csproj",
+        "projectUniqueName": "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Models\\Core.Models.csproj",
         "projectName": "Core.Models",
-        "projectPath": "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Models\\Core.Models.csproj",
+        "projectPath": "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Models\\Core.Models.csproj",
         "packagesPath": "C:\\Users\\s5801073810058\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Models\\obj\\",
+        "outputPath": "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

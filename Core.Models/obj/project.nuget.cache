@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rt3xHPp6Yb7IY4czmHGRtlxluHa9E6X2AMHH671xg1dp1VHFGef+WGQ5D7PHdAv1GcWg66fY5Hihzsg0Zbguqg==",
+  "dgSpecHash": "SVcFMCMAOsxkisJwasUmr6Yi4yoF4OECyAbE5g2dg3xd9YOfhn04RvRUJR2n1Gpn+YtilfAD6Et5wCSxgJH9Fw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\Core.Models\\Core.Models.csproj",
+  "projectFilePath": "D:\\Develop\\CodeGit\\HM2#2\\HM2\\Core.Models\\Core.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

@@ -15,8 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Common", "Core.Common\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Domain", "Core.Domain\Core.Domain.csproj", "{0A852654-2DE1-4895-B802-29B94E5FC580}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreAPI", "D:\Develop\CoreAPI\CoreAPI\CoreAPI.csproj", "{EA6315C9-8174-40B9-AD10-BFD5EA8C63F6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,10 +45,6 @@ Global
 		{0A852654-2DE1-4895-B802-29B94E5FC580}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A852654-2DE1-4895-B802-29B94E5FC580}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A852654-2DE1-4895-B802-29B94E5FC580}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA6315C9-8174-40B9-AD10-BFD5EA8C63F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA6315C9-8174-40B9-AD10-BFD5EA8C63F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA6315C9-8174-40B9-AD10-BFD5EA8C63F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA6315C9-8174-40B9-AD10-BFD5EA8C63F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

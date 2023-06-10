@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qzbIUimewZ8/ItbcPR1eGKT60fP1fKKTVZOBYpKtoJX0b6wBzS9+HN9nRX5PCbzV/tFgZrgGbAykcHCWkTe2vg==",
+  "dgSpecHash": "+sVoaOVKRWXebY8WXFp7iZ7ie3aJI6UHnJq0cB8Pjz+kb6S0YKj+LC/WJVLPy6Umz1RWox9m3WaUdsuIqb8foQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\s5801073810058\\source\\repos\\HMCore\\HMUI\\HMUI.csproj",
+  "projectFilePath": "D:\\Develop\\CodeGit\\HM2#2\\HM2\\HMUI\\HMUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\s5801073810058\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\s5801073810058\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",

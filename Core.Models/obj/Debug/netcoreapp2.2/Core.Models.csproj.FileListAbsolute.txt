@@ -8,3 +8,13 @@ C:\Users\s5801073810058\source\repos\HMCore\Core.Models\obj\Debug\netcoreapp2.2\
 C:\Users\s5801073810058\source\repos\HMCore\Core.Models\obj\Debug\netcoreapp2.2\Core.Models.dll
 C:\Users\s5801073810058\source\repos\HMCore\Core.Models\obj\Debug\netcoreapp2.2\Core.Models.pdb
 C:\Users\s5801073810058\source\repos\HMCore\Core.Models\obj\Debug\netcoreapp2.2\Core.Models.csproj.AssemblyReference.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Models\bin\Debug\netcoreapp2.2\Core.Models.deps.json
+D:\Develop\CodeGit\HM2#2\HM2\Core.Models\bin\Debug\netcoreapp2.2\Core.Models.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Models\bin\Debug\netcoreapp2.2\Core.Models.pdb
+D:\Develop\CodeGit\HM2#2\HM2\Core.Models\obj\Debug\netcoreapp2.2\Core.Models.csproj.AssemblyReference.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Models\obj\Debug\netcoreapp2.2\Core.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Develop\CodeGit\HM2#2\HM2\Core.Models\obj\Debug\netcoreapp2.2\Core.Models.AssemblyInfoInputs.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Models\obj\Debug\netcoreapp2.2\Core.Models.AssemblyInfo.cs
+D:\Develop\CodeGit\HM2#2\HM2\Core.Models\obj\Debug\netcoreapp2.2\Core.Models.csproj.CoreCompileInputs.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Models\obj\Debug\netcoreapp2.2\Core.Models.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Models\obj\Debug\netcoreapp2.2\Core.Models.pdb
