@@ -1,5 +1,5 @@
-using Core.Domain;
-using Core.Domain.Database;
+//using Core.Domain;
+//using Core.Domain.Database;
 using Core.Services;
 using Core.Interfaces;
 using Microsoft.AspNetCore.Builder;
@@ -16,7 +16,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using Core.Domain.Database;
 
 namespace HMAPI
 {
@@ -40,9 +40,14 @@ namespace HMAPI
             });
 
 
-            services.AddDbContextPool<ApplicationDbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("ConnectionBase")));
-            services.AddDbContextPool<hospitalmeet_dbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("ConnectionBase")));
-            //services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
+           services.AddDbContextPool<hospitalmeet_dbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("ConnectionBase")));
+           services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
+           services.AddScoped<IJwtUtils, JwtUtils>();
+
+            services.AddScoped<IToolsService, ToolsService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IViewService, ViewService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

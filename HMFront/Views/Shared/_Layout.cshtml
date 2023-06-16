@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - HMFront</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+
+
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="~/css/StyleTM.css" rel="stylesheet" />
+    <link href="~/css/inicss.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400;500;600&display=swap" rel="stylesheet">
+
+
+    <link href="~/css/flickity.css" rel="stylesheet" />
+    <script src="~/js/flickity.pkgd.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="c-head">
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-transparent border-bottom box-shadow mb-o">
+                <div class="container">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Hospital Meet</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                        <ul class="navbar-nav navbar-right" style="text-align:center;">
+                            <li class="nav-item">
+
+                                <div class="btn-nav" asp-area="" asp-controller="Home" asp-action="Index"><a>เข้าสู่ระบบ</a></div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="btn-nav" onclick="location.href='@Url.Action("SignUp", "Home")'"><a>สมัครสมาชิก</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <partial name="_CookieConsentPartial" />
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+
+
+
+
+        <hr />
+        <div class="footer-1">
+            <div class="footer-tb">
+                <div class="footer-item-1">
+                    <div class="footer-titel"><h2>About</h2></div>
+
+                    <div class="footer-list">
+                        <h4>About HM</h4>
+                        <h4>Content Guidelines</h4>
+                        <h4>Terms of Service</h4>
+                        <h4>Privacy Policy</h4>
+
+                    </div>
+
+                </div>
+                <div class="footer-item-1">
+                    <div class="footer-titel"><h2>Discover</h2></div>
+
+
+                    <div class="footer-list">
+                        <h4>TM Blog</h4>
+
+
+                    </div>
+                </div>
+                <div class="footer-item-1">
+                    <div class="footer-titel"><h2>TM for Bussiness</h2></div>
+
+
+                    <div class="footer-list">
+                        <h4>Business Support</h4>
+
+
+                    </div>
+                </div>
+                <div class="footer-item-1">
+                    <div class="footer-titel"><h2>Languages</h2></div>
+
+
+                    <div class="footer-list">
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - HMUI - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
+        </script>
+    </environment>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

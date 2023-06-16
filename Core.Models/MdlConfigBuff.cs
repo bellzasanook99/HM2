@@ -8,4 +8,19 @@ namespace Core.Models
     {
      
     }
+
+
+
+    public class ViewIndex
+    {
+
+    }
+
+    public class MdlCatagoryManus
+    {
+        public string Cag_Id { get; set; }
+        public string CagName { get; set; }
+        public string Cagimg { get; set; }
+    }
+
 }

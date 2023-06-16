@@ -10,5 +10,10 @@ namespace Core.Interfaces
     public interface IUserService
     {
         Task<IEnumerable<TblAccount>> GetAccount();
+        Task<int> AddAccount(TblAccount tblAccount);
+
+        Task<TblAccount> GetAccountByPhone(string AccountPhone);
+
+        string Md5Convert(string pass);
     }
 }

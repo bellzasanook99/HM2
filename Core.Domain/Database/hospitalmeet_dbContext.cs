@@ -8,10 +8,7 @@ namespace Core.Domain.Database
 {
     public partial class hospitalmeet_dbContext : DbContext
     {
-        public hospitalmeet_dbContext()
-        {
-        }
-
+   
         public hospitalmeet_dbContext(DbContextOptions<hospitalmeet_dbContext> options)
             : base(options)
         {
@@ -63,8 +60,8 @@ namespace Core.Domain.Database
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                //optionsBuilder.UseSqlServer("Server=127.0.0.1;Database=hospitalmeet_db;Trusted_Connection=True;User ID=sa;Password=Admin1234!");
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+//               optionsBuilder.UseSqlServer("Server=127.0.0.1;Database=hospitalmeet_db;Trusted_Connection=True;User ID=sa;Password=Admin1234!");
             }
         }
 
