@@ -2,6 +2,7 @@
 using Core.Domain.Enum;
 using Core.Interfaces;
 using Core.Models;
+using HMAPI.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -43,7 +44,14 @@ namespace HMAPI.Controllers
             return Ok(viewModels);
         }
 
+        [HttpPost]
+        [Auth]
+        public IActionResult GetTEST()
+        {
+          
 
-        
+            return Ok();
+        }
+
     }
 }

@@ -1,6 +1,7 @@
 using Core.Domain.Database;
 using Core.Interfaces;
 using Core.Services;
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -58,6 +59,8 @@ namespace HMFront
             app.UseStaticFiles();
 
             app.UseRouting();
+            
+          //  app.UseMiddleware<JwtMiddleware>();
 
             app.UseAuthorization();
 

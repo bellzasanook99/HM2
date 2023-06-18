@@ -2,21 +2,21 @@
 //using Core.Domain.Database;
 using Core.Services;
 using Core.Interfaces;
+using HMAPI.Service;
+using Core.Domain.Database;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Domain.Database;
+using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace HMAPI
 {
@@ -32,6 +32,12 @@ namespace HMAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllersWithViews();
+            services.AddDistributedMemoryCache();
+            services.AddSession(options => {
+                options.IdleTimeout = TimeSpan.FromMinutes(60);//You can set Time   
+            });
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -48,6 +54,9 @@ namespace HMAPI
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IViewService, ViewService>();
 
+            //services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+            // .AddCookie();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,11 +70,34 @@ namespace HMAPI
             }
 
             app.UseHttpsRedirection();
-
+         //   app.UseStaticFiles();
+            app.UseSession();
             app.UseRouting();
+
+          
+
+            app.Use(async (context, next) =>
+            {
+                var JWToken = context.Session.GetString("JWToken");
+                if (!string.IsNullOrEmpty(JWToken))
+                {
+                    context.Request.Headers.Add("Authorization", "Bearer " + JWToken);
+                }
+                await next();
+            });
+
+
 
             app.UseAuthorization();
 
+            app.UseMiddleware<JwtMiddleware>();
+
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapControllerRoute(
+            //        name: "default",
+            //        pattern: "{controller=Home}/{action=Index}/{id?}");
+            //});
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

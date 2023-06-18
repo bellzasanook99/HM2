@@ -10,6 +10,7 @@
 	  <ProjectReference Include="..\Core.Models\Core.Models.csproj" />
 	  <ProjectReference Include="..\Core.Services\Core.Services.csproj" />
 	  <ProjectReference Include="..\Core.Interfaces\Core.Interfaces.csproj" />
+	  <ProjectReference Include="..\HMAPI\HMAPI.csproj" />
   </ItemGroup>
 
 </Project>

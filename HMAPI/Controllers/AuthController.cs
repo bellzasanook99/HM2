@@ -2,6 +2,7 @@
 using Core.Interfaces;
 using Core.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -60,6 +61,8 @@ namespace HMAPI.Controllers
                       
                         resUser.tblAccount = user.Result;
                         resUser.Token = _jwtUtils.GenerateToken(user.Result);
+                      
+                        HttpContext.Session.SetString("JWToken", "Bearer " + resUser.Token );
                         return Ok(resUser);
                     }
                     else

@@ -2,7 +2,6 @@ D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\net5.0\Core.Services.deps.j
 D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\net5.0\Core.Services.runtimeconfig.json
 D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\net5.0\Core.Services.runtimeconfig.dev.json
 D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\net5.0\Core.Services.dll
-D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\net5.0\ref\Core.Services.dll
 D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\net5.0\Core.Services.pdb
 D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\net5.0\Core.Domain.dll
 D:\Develop\CodeGit\HM2#2\HM2\Core.Services\bin\Debug\net5.0\Core.Interfaces.dll
@@ -15,6 +14,7 @@ D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\Core.Services.Assemb
 D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\Core.Services.csproj.CoreCompileInputs.cache
 D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\Core.Services.csproj.CopyComplete
 D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\Core.Services.dll
-D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\ref\Core.Services.dll
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\refint\Core.Services.dll
 D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\Core.Services.pdb
 D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\Core.Services.genruntimeconfig.cache
+D:\Develop\CodeGit\HM2#2\HM2\Core.Services\obj\Debug\net5.0\ref\Core.Services.dll
